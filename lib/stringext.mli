@@ -48,7 +48,7 @@ val replace_all_assoc : string -> (string * string) list -> string
 val cut : string -> on:string -> (string * string) option
 (** [String.cut on s] is either the pair [Some (l,r)] of the two
     (possibly empty) substrings of [s] that are delimited by the first
-    match of the non empty onarator string [on] or [None] if [on]
+    match of the non empty separator string [on] or [None] if [on]
     can't be matched in [s]. Matching starts from the beginning of [s].
 
     The invariant [l ^ on ^ r = s] holds.
