@@ -76,3 +76,8 @@ val take : string -> int -> string
     from [s] starting from [pos] and up to [len] *)
 val trim_left_sub : string -> pos:int -> len:int -> chars:string -> string
 ```
+
+## Examples
+
+See the directory `examples`. This is a separate dune workspace, so install
+Stringext first. 
