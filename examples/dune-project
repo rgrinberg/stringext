@@ -1,0 +1,2 @@
+(lang dune 3.14)
+(name stringext_example)
